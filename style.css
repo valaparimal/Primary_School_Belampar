@@ -42,8 +42,6 @@ button{
     border-color: white;
     padding: 0.1%;
 }
-
-
-
-
-
+#ytlink{
+    color: red;
+}
