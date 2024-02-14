@@ -9,39 +9,55 @@ header{
     padding-left: 1%;
     padding-right: 1%;
 }
-main{
+.white{
     background-color: rgb(211, 254, 253);
+}
+.black{
+    background-color: black;
 }
 a{
     color: white;
-   
     text-decoration: none;
 }
 h2{
-    background-color: aliceblue;
     display: inline;
 }
 
 #navbar{
-    background-color: black;
     padding-top: 0.1%;
     padding-bottom: 0.1%;
-
 }
 #map{
     color: red;
     margin: 0;
 }
-button{
+.navbarBtn1{
     width: 70px;
     margin-top: 0.2%;
     margin-bottom: 0.2%;
     margin-left: 0.2%;
     margin-right: 20%;
-    background-color:rgb(32, 32, 32);
+    background-color: rgb(46, 45, 45);
     border-color: white;
     padding: 0.1%;
 }
+.navbarBtn2{
+    width: 70px;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+    margin-left: 0.2%;
+    margin-right: 20%;
+    background-color: rgb(71, 151, 194);
+    border-color: white;
+    padding: 0.1%;
+   
+}
 #ytlink{
     color: red;
+}
+#pre{
+    font-size: xx-small;
+    position: fixed;
+    bottom: 30px;
+    left: 0%;
 }
