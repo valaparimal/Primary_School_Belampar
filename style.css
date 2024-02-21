@@ -24,33 +24,39 @@ h2{
 }
 
 #navbar{
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
+    padding: 0.1%;
+    display:flex;
+    justify-content: space-evenly;
 }
 #map{
     color: red;
     margin: 0;
 }
 .navbarBtn1{
-    width: 70px;
+    width: 90px;
     margin-top: 0.2%;
     margin-bottom: 0.2%;
-    margin-left: 0.2%;
-    margin-right: 20%;
     background-color: rgb(46, 45, 45);
     border-color: white;
     padding: 0.1%;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius:5%; 
+    border:solid white 2px;
 }
 .navbarBtn2{
-    width: 70px;
+    width: 90px;
     margin-top: 0.2%;
     margin-bottom: 0.2%;
-    margin-left: 0.2%;
-    margin-right: 20%;
     background-color: rgb(71, 151, 194);
     border-color: white;
     padding: 0.1%;
-   
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius:5%; 
+    border:solid black 2px;
 }
 #ytlink{
     color: red;
@@ -61,3 +67,42 @@ h2{
     bottom: 30px;
     left: 0%;
 }
+.navbarBtn1:hover , .navbarBtn2:hover{
+    font-size:1.3rem;
+}
+.navbarBtn1 i{
+    color:rgb(18, 240, 44);
+    margin-right:0.5rem;
+}
+.navbarBtn2 i{
+    color:rgb(59, 226, 87);
+    margin-right:0.5rem;
+}
+#images{
+
+}
+img:hover{
+    border:4px solid rgb(38, 238, 12);
+}
+.video1{
+    display:flex;
+    justify-content:space-evenly;
+}
+video:hover{
+    border:4px solid rgb(38, 238, 12);   
+}
+button{
+    background-color: bisque;
+    border-radius:5px;
+  }
+  button:hover{
+    font-size:1rem;
+    border:2px solid rgb(236, 13, 13);
+  }
+@media screen and (min-width: 480px) {
+    #images div{
+        display:flex;
+        justify-content:space-evenly;
+        margin:2rem;
+    } 
+  }
