@@ -84,10 +84,6 @@ h2{
 img:hover{
     border:4px solid rgb(38, 238, 12);
 }
-.video1{
-    display:flex;
-    justify-content:space-evenly;
-}
 video:hover{
     border:4px solid rgb(38, 238, 12);   
 }
@@ -105,4 +101,8 @@ button{
         justify-content:space-evenly;
         margin:2rem;
     } 
+    .video1{
+    display:flex;
+    justify-content:space-evenly;
+    }
   }
