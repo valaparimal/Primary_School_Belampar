@@ -78,8 +78,8 @@ h2{
     color:rgb(59, 226, 87);
     margin-right:0.5rem;
 }
-#images{
-
+img{
+    background-color:white;
 }
 img:hover{
     border:4px solid rgb(38, 238, 12);
