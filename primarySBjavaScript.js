@@ -40,7 +40,7 @@ let header=document.querySelector("header");
 let marquee=document.querySelector("marquee");
 let header2=document.createElement("h2");
 header.onmouseenter=()=>{
-    header2.innerText="Primary school Belampar";
+    header2.innerText="શ્રી બેલમપર પ્રાથમિક શાળા";
     header2.style.backgroundColor=mode;
     marquee.before(header2);
     marquee.remove();
