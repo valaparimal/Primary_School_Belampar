@@ -14,6 +14,67 @@
         <br>
        
             <div id="images">
+                <div class="div"><img src="img_1.png" alt="photo"/></div>
+                <div class="div"><img src="img_2.png" alt="photo"/></div>
+                <div class="div"><img src="img_3.png" alt="photo"/></div>
+
+                <div class="div"><img src="IMG_20240126_102305.jpg" alt="photo"/></div>
+                <div class="div"><img src="IMG_20240126_102312.jpg" alt="photo"/></div>
+                <div class="div"><img src="IMG_20240126_102616.jpg" alt="photo"/></div>
+                <div class="div"><img src="IMG_20240126_102632.jpg" alt="photo"/></div>
+
+                <div class="div"><img src="IMG_20240126_115158.jpg" alt="photo"/></div>
+                <div class="div"><img src="IMG_20240126_115304.jpg" alt="photo"/></div>
+                <div class="div"><img src="IMG_20240126_115433.jpg" alt="photo"/></div>
+                <div class="div"><img src="IMG_20240126_115628.jpg" alt="photo"/> </div>
+                
+            </div>
+        <br>
+    </main>
+    <footer>
+        <hr>
+        <pre id="pre">Primary school Belampar</pre>
+    </footer>
+    <!-- <script src="bgMOD.js"></script> -->
+    <script>
+        let images = document.querySelectorAll("img");
+
+        images.forEach((img)=>{
+            console.log(img.src);
+            img.addEventListener("click",()=>{
+                window.location = img.src;
+            })
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photoes Primary school Belampar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="white">
+    <header>
+        <h1><center>Photoes</center></h1>       
+    </header>
+    <main>
+        <br>
+       
+            <div id="images">
                 <div>
                     <img src="Screenshot 2024-01-27 124128.png" alt="photo"/>
                     <img src="Screenshot 2024-01-27 124153.png" alt="photo"/>
@@ -43,4 +104,4 @@
     </footer>
     <script src="bgMOD.js"></script>
 </body>
-</html>
+</html> -->
