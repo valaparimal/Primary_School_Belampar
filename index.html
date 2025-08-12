@@ -1,48 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>શ્રી બેલમપર પ્રાથમિક શાળા</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="google-site-verification" content="y8QvzkXUTIfvMUcFhBGz3Uu3zRxfioGtUfBE5maSsj4" />
-    <meta name="description" content="Welcome to Shri Belampar Primary School. Discover our vibrant learning environment and community initiatives.">
-    <meta name="keywords" content="Belampar, Primary School, Education, Community">
-    <meta name="author" content="Belampar Primary School">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="white">
     <header>
-       <marquee behavior="alternate" direction="left" scrollamount="5"><H2 class="white">શ્રી બેલમપર પ્રાથમિક શાળા</H2></marquee>
+        <!-- <marquee behavior="alternate" direction="left" scrollamount="5"><H2 class="white">શ્રી બેલમપર પ્રાથમિક શાળા</H2></marquee> -->
+        <H2 class="white">શ્રી બેલમપર પ્રાથમિક શાળા</H2>
     </header>
-    <main >
-       <div id="navbar">
-            <div class="navbarBtn1"> 
+    <main>
+        <div id="navbar">
+            <div id="logo"></div>
+            <div id="menu">
+                <img src="images/menu.png"/>
+                <div id="menu-items-container">
+                    <ul>
+                        <li><a href="photoes_Primary_school_belampar.html"><i class="fa-regular fa-image"></i>Photoes</a></li>
+                        <li><a href="videoes_Primary_school_belampar.html"><i class="fa-solid fa-video"></i>Videoes</a></li>
+                        <li><a href="#about-conttainer" onclick="showAboutSection()"><i class="fa-solid fa-address-card"></i>About</a></li>
+                        <li><a href="contect_index_primary_school_belampar.html"><i class="fa-solid fa-phone"></i>Contect</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbarBtn1">
                 <a href="photoes_Primary_school_belampar.html"><i class="fa-regular fa-image"></i>Photoes</a>
             </div>
             <div class="navbarBtn1">
                 <a href="videoes_Primary_school_belampar.html"><i class="fa-solid fa-video"></i>Videoes</a>
             </div>
             <div class="navbarBtn1">
-                <a href="about_index_primary_school_belampar.html"><i class="fa-solid fa-address-card"></i>About</a>
+                <a href="#about-conttainer" onclick="showAboutSection()"><i class="fa-solid fa-address-card"></i>About</a>
             </div>
             <div class="navbarBtn1">
                 <a href="contect_index_primary_school_belampar.html"><i class="fa-solid fa-phone"></i>Contect</a>
             </div>
-       </div>        
-       <center>
-            <br>
-            <a id="map" href="https://maps.app.goo.gl/6S4pq1rJF57HBcev6" target="_main">Belampar map provide by Google maps</a> 
-            <br>    <br>
-                <img id="body-img1" src="Screenshot 2024-01-27 124153.png" alt="Photo" height="200"/>
-          
-        </center> 
-    </main>
-<footer>
-    <hr>
-    <pre id="pre">Primary school Belampar</pre>
-</footer>
+        </div>
 
-    <script src="primarySBjavaScript.js"></script>
+        <div id="welcome-container">
+            <h3 style="text-align: center;">Welcome to Belampar Primary School!</h3>
+            <p>For more than eight decades, our school has been a place where curiosity is nurtured, dreams are
+                encouraged,
+                and values are built for life. We believe every child has unique potential, and through a blend of
+                academic
+                excellence, cultural pride, and community spirit, we guide our students from Grade 1 to Grade 10 toward
+                becoming confident, responsible, and capable individuals. Here, learning is not just about books—it’s
+                about
+                growing together as a family.</p>
+        </div>
+
+        <div id="center-container">
+            <img id="body-img1" src="img_2.png" alt="Photo" style="max-width: 70vw;" />
+            <a id="map" href="https://maps.app.goo.gl/6S4pq1rJF57HBcev6" target="_main">Belampar map provide by Google
+                maps</a>
+        </div>
+
+        <div id="gmap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7438.111894814911!2d71.75389003831481!3d21.229629930201522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be217ba38f74f5f%3A0x4f09bf1f792ea393!2sPrimary%20school%20Belampar!5e0!3m2!1sen!2sin!4v1739601534442!5m2!1sen!2sin"
+                width="600" height="450" style="border:1px solid black; border-radius: 50px;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="about-conttainer">
+            <h3>About Us:</h3>
+            <p>Founded in 1937, Shree Belampar Prathmik Shala is a co-educational government school located in Belampar
+                village, Mahuva taluka, Bhavnagar district, Gujarat (Pin Code 364290). We proudly serve students from
+                Grades 1 to 10, providing them with a strong academic foundation and the skills to succeed in higher
+                education and life.
+                Our Mission</p>
+
+            <h3>We are committed to:</h3>
+            <ul>
+                <li>Providing quality education aligned with the Gujarat State curriculum</li>
+
+                <li>Encouraging holistic development : academic, cultural, and physical</li>
+
+                <li>Promoting values of respect, responsibility, and community service</li>
+
+                <li>Preparing students for future studies and career opportunities</li>
+            </ul>
+
+            <h3>Our Community:</h3>
+            <p>Located in the heart of Belampar, a close-knit rural community with a rich cultural heritage, the school
+                plays a vital role in raising literacy levels and fostering growth among local children. Many of our
+                alumni have gone on to higher education and professional success, carrying forward the values they
+                learned here.</p>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <pre id="pre">Primary school Belampar</pre>
+    </footer>
+
+    <!-- <script src="primarySBjavaScript.js"></script> -->
+     <script>
+        let menuBar = document.getElementById("menu");
+        let menuItemContainer = document.querySelector("#menu-items-container");
+        let toggle = false;
+
+        menuBar.addEventListener("click",(event)=>{
+            event.stopPropagation();
+            if(toggle){
+                toggleMenuBar("none");
+                toggle=false;
+            }else{
+                toggleMenuBar("block");
+                toggle=true;
+            }
+        });
+
+        document.body.addEventListener("click",()=>{
+            toggle=false;
+            toggleMenuBar("none");
+        })
+
+        function toggleMenuBar(dis){
+            menuItemContainer.style.display=dis;
+        }
+
+        function showAboutSection(){
+            let aboutContainer = document.querySelector("#about-conttainer");
+            aboutContainer.classList.add("shadow-anim");
+
+            setTimeout(()=>{
+                aboutContainer.classList.remove("shadow-anim");
+            },3000);
+        }
+
+     </script>
 </body>
+
 </html>
